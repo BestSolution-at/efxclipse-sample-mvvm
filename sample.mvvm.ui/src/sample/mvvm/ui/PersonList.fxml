@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.mvvm.ui.PersonListController">
+	<center>
+		<ListView id="person-list-view" fx:id="personListView" />
+	</center>
+	<bottom>
+		<ToolBar>
+			<Button text="New" fx:id="newButton" onAction="#newPerson"/>
+			<Button text="Delete" fx:id="delButton" onAction="#deletePerson" />
+		</ToolBar>
+	</bottom>
+</BorderPane>
+

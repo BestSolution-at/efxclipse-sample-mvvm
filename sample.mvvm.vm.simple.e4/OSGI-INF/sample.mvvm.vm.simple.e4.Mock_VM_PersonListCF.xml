@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="sample.mvvm.vm.simple.e4.Mock_VM_PersonListCF">
+   <property name="service.context.key" value="sample.mvvm.vm.VM_PersonList"/>
+   <service>
+      <provide interface="org.eclipse.e4.core.contexts.IContextFunction"/>
+   </service>
+   <implementation class="sample.mvvm.vm.simple.e4.Mock_VM_PersonListCF"/>
+</scr:component>

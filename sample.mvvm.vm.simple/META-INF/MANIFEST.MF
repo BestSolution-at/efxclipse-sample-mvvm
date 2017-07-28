@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simple
+Bundle-SymbolicName: sample.mvvm.vm.simple
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.inject,
+ org.eclipse.fx.core.bindings;version="3.0.0",
+ org.eclipse.fx.core.command;version="3.0.0",
+ org.eclipse.fx.core.di;version="3.0.0",
+ org.eclipse.fx.core.observable;version="3.0.0"
+Require-Bundle: sample.mvvm.vm
+Export-Package: sample.mvvm.vm.simple,
+ sample.mvvm.vm.simple.model

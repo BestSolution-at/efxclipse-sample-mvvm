@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: E4
+Bundle-SymbolicName: sample.mvvm.vm.simple.e4
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.service.component.annotations;version="1.2.0"
+Require-Bundle: org.eclipse.e4.core.contexts,
+ sample.mvvm.vm.simple,
+ org.eclipse.e4.core.di;bundle-version="1.6.1",
+ sample.mvvm.vm;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/sample.mvvm.vm.simple.e4.Mock_VM_PersonListCF.xml,
+ OSGI-INF/sample.mvvm.vm.simple.e4.Mock_VM_PersonFormCF.xml
