@@ -30,32 +30,6 @@
 				<configuration>
 					<argLine>-Dtestfx.osgi.product.id=sample.mvvm.app.product ${fx.testArgLine}</argLine>
 					<appArgLine>-nosplash -consoleLog -console</appArgLine>
-					<useUIThread>false</useUIThread>
-					<!-- dependency-resolution>
-						<extraRequirements>
-							<requirement>
-								<type>eclipse-feature</type>
-								<id>sample.mvvm.app.feature</id>
-								<versionRange>0.0.0</versionRange>
-							</requirement>
-							<requirement>
-								<type>eclipse-feature</type>
-								<id>sample.mvvm.vm.simple.feature</id>
-								<versionRange>0.0.0</versionRange>
-							</requirement>
-							<requirement>
-								<type>eclipse-feature</type>
-								<id>org.eclipse.fx.runtime.e4fx.feature</id>
-								<versionRange>0.0.0</versionRange>
-							</requirement>
-							<requirement>
-								<type>eclipse-plugin</type>
-								<id>sample.mvvm.ui.tests</id>
-								<versionRange>0.0.0</versionRange>
-							</requirement>
-							
-						</extraRequirements>
-					</dependency-resolution -->
 				</configuration>
 			</plugin>
 		</plugins>
